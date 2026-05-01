@@ -1,0 +1,5 @@
+POST http://localhost:3000/api/justify
+Authorization: Bearer 0d23c3f4d54bc6148d206708b8798e72
+Content-Type: text/plain
+
+Ceci est mon texte très long que je veux tester. Je vérifie si l'algorithme de mon service de justification fonctionne bien et si les lignes s'arrêtent correctement avant d'atteindre la limite des quatre-vingt caractères imposée par l'énoncé de l'exercice.
